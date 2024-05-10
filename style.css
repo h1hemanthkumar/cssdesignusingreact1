@@ -42,6 +42,8 @@ header
 {   display:flex;
     max-width:150px;
     flex-wrap:wrap;
+    align-items:center;
+    align-content:center;
 }
 .gray
 {   color:gray;
