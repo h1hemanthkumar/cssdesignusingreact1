@@ -38,7 +38,7 @@ header
 .star
 {   width:15px;
 }
-.stardisplay
+.starsdisplay
 {   display:flex;
     max-width:150px;
     flex-wrap:wrap;
