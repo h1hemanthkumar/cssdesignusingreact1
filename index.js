@@ -110,7 +110,7 @@ function Page()
                     mo="From $1000/"
                 />
                 <Display
-                    img="twelthimg.png"
+                    img="twelthimg.jpg"
                     star="starone.png"
                     snum="43"
                     anum="69"
