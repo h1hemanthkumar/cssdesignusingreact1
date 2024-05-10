@@ -17,7 +17,7 @@ function Display(props)
 function Page()
 {   return(
         <div>
-            <header>
+            <header> 
                 <nav className="head">
                     <img src="airbag.png" alt="airbag" className="logo"></img>
                 </nav>
