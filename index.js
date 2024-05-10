@@ -1,7 +1,7 @@
 function Display(props)
 {   return(
         <div className="imga">
-            <div className="soldbadge">SOLD OUT</div>
+            {props.soldout==0 &&<div className="soldbadge">SOLD OUT</div>}
             <img src={props.img} className="pic"></img>
             
             <div className="starsdisplay">
@@ -38,6 +38,7 @@ function Page()
                     cou="USA"
                     abo="Life lesson with katie zafees"
                     mo="From $136/"
+                    soldout={0}
                 />
                 <Display
                     img="fourthimg.png"
@@ -47,6 +48,7 @@ function Page()
                     cou="London"
                     abo="Learn some thing before u die"
                     mo="From $230/"
+                    soldout={1}
                 />
                 <Display
                     img="fifthimg.png"
@@ -56,6 +58,7 @@ function Page()
                     cou="India"
                     abo="Travel India once in ur life"
                     mo="From $1000/"
+                    soldout={0}
                 />
                 <Display
                     img="sixthimg.png"
@@ -65,6 +68,7 @@ function Page()
                     cou="Paris"
                     abo="City of Light,Love,and Romance"
                     mo="From $500/"
+                    soldout={0}
                 />
                 <Display
                     img="seventhimg.png"
@@ -74,6 +78,7 @@ function Page()
                     cou="Russia"
                     abo="Life's a journey, enjoy the ride."
                     mo="From $230/"
+                    soldout={1}
                 />
                 <Display
                     img="eigthimg.png"
@@ -83,6 +88,7 @@ function Page()
                     cou="France"
                     abo="Embrace the French zest for life"
                     mo="From $2000/"
+                    soldout={1}
                 />
                 <Display
                     img="ninth.png"
@@ -92,6 +98,7 @@ function Page()
                     cou="Japan"
                     abo="Serenity in Tradition."
                     mo="From $400/"
+                    soldout={0}
                 />
                 <Display
                     img="tenth.png"
@@ -101,6 +108,7 @@ function Page()
                     cou="Australia"
                     abo="Place where Adventure Awaits"
                     mo="From $700/"
+                    soldout={1}
                 />
                 <Display
                     img="eleventhimg.png"
@@ -110,6 +118,7 @@ function Page()
                     cou="India"
                     abo="Nature's Verdant Symphony"
                     mo="From $1000/"
+                    soldout={1}
                 />
                 <Display
                     img="twelthimg.jpg"
@@ -119,6 +128,7 @@ function Page()
                     cou="Channapatna"
                     abo="Bikes are not for sale"
                     mo="From $200000/"
+                    soldout={1}
                 />
             </div>
         </div>
