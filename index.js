@@ -1,7 +1,9 @@
 function Display(props)
 {   return(
         <div className="imga">
+            <div className="soldbadge">SOLD OUT</div>
             <img src={props.img} className="pic"></img>
+            
             <div className="starsdisplay">
                 <img src={props.star} className="star"></img>
                 <span>{props.snum}</span>

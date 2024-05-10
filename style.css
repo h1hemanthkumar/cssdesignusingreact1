@@ -40,6 +40,7 @@ header
 }
 .stardisplay
 {   display:flex;
+    max-width:150px;
     flex-wrap:wrap;
 }
 .gray
@@ -57,4 +58,17 @@ header
     max-width:100%;
     flex-wrap:wrap;
     justify-content:space-evenly;
+}
+.soldbadge
+{   background-color:white;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:3px;
+    padding-right:3px;
+    font-size:10px;
+    position:absolute;
+    margin-left:5px;
+    margin-top:280px;
+    border-radius:6px;
+    font-weight:bold;
 }
